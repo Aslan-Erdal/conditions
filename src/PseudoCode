@@ -1,0 +1,317 @@
+Exercice 1 :
+
+Variable prenom en String
+
+Début
+Ecrire "Quel est votre prénom ?"
+LIRE prenom
+Ecrire "Bonjour, " + prénom + "!"
+
+Fin
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 2 :
+
+Variable nombre en Entier
+
+Début
+
+Ecrire "Entrez un nombre"
+LIRE nombre
+carre = number * number
+Ecrire "Le carré de ce nombre est " + carré
+
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 3 :
+
+Variable nombre en Entier
+
+Début
+Ecrire "Entrez un nombre : "
+LIRE nombre
+SI nombre > 0 ALORS
+    Afficher "Le nombre est positif"
+SINON SI nombre < 0 ALORS
+    Afficher "LE nombre est négatif"
+FINSI
+
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 4 :
+
+Variables priceHT, priceTva en Numérique
+
+Début
+Ecrire "Indiquez le prix HT : "
+LIRE priceHT
+Variable prixTva <- prixHT * 0.20
+Ecrire "TTC : " + (priceHt + priceTva)
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 5 :
+
+Début
+
+Variables first, second en Entier
+Ecrire "Le premier le nombre"
+LIRE first
+Afficher "Le second nombre"
+LIRE second
+
+SI (first > 0 ET second > 0) OU (first < 0 ET second < 0) ALORS
+    Ecrire "Le produit est positif"
+SINON ALORS
+    Ecrire "Le produit est négatif"
+FINSI
+
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 6 :
+
+Variables first, second, third en Entier
+
+Début
+Ecrire "Le premier nombre"
+LIRE first
+Ecrire "LE second nombre"
+LIRE second
+Ecrire "Le troisieme nombre"
+LIRE third
+
+SI (first > second ET first > third ET second > third) ALORS
+    Ecrire "Les nombres sont croissants"
+SINON
+    Ecrire "Les nombres sont decrossants"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 7 :
+
+Variable x en Entier
+
+Début
+Ecrire "La valeur absolue"
+LIRE x
+SI (x > 0) ALORS
+    Ecrire "La valeur est absolue"
+SINON SI (x < 0) ALORS
+    Ecrire "La valeur est absolue"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 8 :
+
+Variables first, second en Entier
+
+Début
+Ecrire "Le premier nombre"
+LIRE first
+Ecrire "Le second nombre"
+LIRE second
+
+SI (first > 0 ET second > 0) ALORS
+    Ecrire "Tous les nombres sont positif"
+SINON
+    Ecrire "Il ya au moins un nombre négatif"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 9 :
+
+Variable number en Entier
+
+Début
+Ecrire "Entrez un nombre"
+LIRE number
+SI (number > 0) ALORS
+    Ecrire "Le nombre est positif"
+SINON SI () ALORS
+    Ecrire "Le nombre est négatif"
+SINON
+    Ecrire "Le nombre est null"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 10 :
+
+Variables first, second en Entier
+
+Début
+Ecrire "Entrez le premier nombre"
+LIRE first
+Ecrire "Entrez le second nombre"
+LIRE second
+
+SI (first > 0 ET second > 0) ALORS
+    Ecrire "Le produit est positif"
+SINON SI ((first1 > 0 OU second2 > 0) OU (first1 < 0 OU second2 < 0)) ALORS
+    Ecrire "Le produit est négatif"
+SINON
+    Ecrire "Le produit est null"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 11 :
+
+Variable age en Entier
+
+Début
+Ecrire "Quel est votre age ?"
+LIRE age
+
+SI (childAge >= 6 ET childAge <= 7) ALORS
+    Ecrire "Poussin"
+SINON SI (childAge >= 8 ET childAge <= 9) ALORS
+    Ecrire "Pupille"
+SINON SI (childAge >= 10 ET childAge <= 11) ALORS
+    Ecrire "Minime"
+SINON SI (childAge >= 12) ALORS
+    Ecrire "Cadet"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 12 :
+
+Variables hour, minutes en Entier
+
+Début
+Ecrire "Entrez l'heure"
+LIRE hour
+
+Ecrire "Donne moi les minutes"
+LIRE minutes
+
+Variable nextMinutes + 1
+Ecrire ""Dans une minute, il sera "+hour + " heure(s) " + nextMinutes"
+Fin
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 13 :
+
+Variables hour, minutes, seconds, nextSeconds en Entier
+
+Début
+Ecrire "Entrez l'heure"
+LIRE hour
+
+Ecrire "Donne moi les minutes"
+LIRE minutes
+
+Ecrire "Donne moi les minutes"
+LIRE seconds
+
+nextSeconds <-- seconds +1
+Ecrire "Dans une seconde, il sera " + hour + " heure(s), " + minute +" minute(s) et " + nextSeconds + " seconde(s)"
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 14 :
+
+Variable nombre en Entier
+
+Début
+Ecrire "Le nombre de copie"
+LIRE nombre
+
+SI (nombre == 10) ALORS
+    Ecrire "Le nombre de copie est, nombre,  et votre facture est de, nombre * 0.10 $"
+SINON SI (userNbrCopie == 20) ALORS
+    Ecrire "Le nombre de copie est, nombre,  et votre facture est de, nombre * 0.09 $"
+SINON SI (userNbrCopie > 20) ALORS
+    Ecrire "Le nombre de copie est, nombre,  et votre facture est de, nombre * 0.08 $"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 15 :
+
+Variables age, sexe en Entier
+
+Début
+
+Ecrire "Quel est votre sexe ?"
+LIRE sexe
+
+Ecrire "Quel est votre age ?"
+LIRE age
+
+SI (sexe == homme ET age >= 20 ) ALORS
+    Ecrire "Vous payez les impôts à partir de 20 ans"
+SINON SI (sexe == femme ET (age >= 18 ET age <= 35) ) ALORS
+    Ecrire "Vous payez les impôts entre 18 et 35 ans"
+SINON
+    Ecrire "Vous ne payez pas d'impots"
+FINSI
+Fin
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 16 :
+
+Variable jour en Entier
+
+Ecrire "Entrez un chiffre correspondant au jour de la semaine"
+LIRE jour
+
+selon jour
+    cas 1:
+        Ecrire "Lundi"
+        Sortir
+    cas 2:
+        Ecrire "Mardi"
+        Sortir
+    cas 3:
+        Ecrire "Mercredi"
+        Sortir
+    cas 4:
+        Ecrire "Jeudi"
+        Sortir
+    cas 5:
+        Ecrire "Vendredi"
+        Sortir
+    cas 6:
+        Ecrire "Samedi"
+        Sortir
+    cas 7:
+        Ecrire "Dimanche"
+        Sortir
+    Defaut
+        Ecrire "Je ne connais pas, désolé!"
+        Sortir
+-----------------------------------------------------------------------------------------------------------------------
+
+Exercice 17 :
+
+Variables x, y, n en Entier
+Tableau tab en Entier
+
+Début
+
+Ecrire "Entrez un nombre x"
+LIRE x
+
+Ecrire "Entrez un nombre y"
+LIRE y
+
+Redim tab[x]
+Redim tab[y]
+
+Ecrire "Les nombres dans l'ordre croissant"
+TANTQUE n > tab
+    Ecrire n
+FIN TANTQUE
+Fin
+
+
