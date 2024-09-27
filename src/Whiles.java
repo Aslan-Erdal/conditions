@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Whiles {
 
     public static void main(String[] args) {
+
         // Exercie Numéro 1
-        /*
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Entrez un nombre entre 1 et 3 : ");
         int number = keyboard.nextInt();
@@ -90,13 +90,13 @@ public class Whiles {
         int number5 = keyboard5.nextInt();
         int pos = number5;
         int neg = number5;
-        int somme = number5;
+        int somme5 = number5;
         somme += number5;
         while (number5 > 0) {
             System.out.println("Entrez un nouveau nombre : ");
             number5 = keyboard5.nextInt();
 
-            somme += number5;
+            somme5 += number5;
             if (number5 > pos) { pos = number5; }
             if (number5 < neg && number5 != 0) {
                 neg = number5;
@@ -109,9 +109,9 @@ public class Whiles {
         System.out.println(somme);
 
         // Exercice Numéro 6
-        Scanner keyboard5 = new Scanner(System.in);
+        Scanner keyboard6 = new Scanner(System.in);
         System.out.println("Cachez le nombre : ");
-        int cache = keyboard5.nextInt();
+        int cache = keyboard6.nextInt();
 
         System.out.println("Devinez le nombre caché ");
         int number6;
@@ -131,9 +131,10 @@ public class Whiles {
         }
 
         // Exercice Numéro 7
-        Scanner keyboard5 = new Scanner(System.in);
+
+        Scanner keyboard7 = new Scanner(System.in);
         System.out.println("Cachez le nombre : ");
-        int nombre7 = keyboard5.nextInt();
+        int nombre7 = keyboard7.nextInt();
         int i = 1;
         while (i <= nombre7) {
             System.out.println(i);
@@ -141,33 +142,31 @@ public class Whiles {
         }
 
         // Exercice Numéro 8
-        Scanner keyboard5 = new Scanner(System.in);
+        Scanner keyboard8 = new Scanner(System.in);
         System.out.println("Cachez le nombre : ");
-        int nombre7 = keyboard5.nextInt();
-        int i = 1;
-        int nbr = Integer.toString(nombre7).length();
+        int nombre8 = keyboard8.nextInt();
+        int count = 0;
 
-        while (i < nbr) {
-            i++;
+        while (nombre8 != 0) {
+            nombre8 = nombre8 / 10;
+            count++;
         }
-        System.out.println("Nombre de chiffre : " + i);
+        System.out.println("Nombre de chiffre : " + count);
 
         // Exercice Numéro 9
-        Scanner keyboard5 = new Scanner(System.in);
+        Scanner keyboard9 = new Scanner(System.in);
         System.out.println("Vous êtes majeur ? ");
-        String question = keyboard5.next();
+        String question = keyboard9.next();
 
-        while(true) {
+        while (true) {
             if (question.equals("Oui") || question.equals("Non")) {
                 System.out.println("D'accord! j'ai compris");
                 return;
             } else {
                 System.out.println("Vous êtes majeur ? ");
-                question = keyboard5.next();
+                question = keyboard9.next();
             }
         }
-
-         */
 
         // Exercice Numéro 10
         Scanner keyboard10 = new Scanner(System.in);
@@ -182,6 +181,7 @@ public class Whiles {
         firstN = nombre10;
 
         System.out.println("Le premier nombre est " + firstN + ", et le dernier nombre est " + lastN + ".");
-    }
 
+
+    }
 }
