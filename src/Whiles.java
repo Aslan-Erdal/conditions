@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Whiles {
 
     public static void main(String[] args) {
-
+    /*
         // Exercie Numéro 1
         Scanner keyboard = new Scanner(System.in);
         System.out.println("Entrez un nombre entre 1 et 3 : ");
@@ -131,7 +131,6 @@ public class Whiles {
         }
 
         // Exercice Numéro 7
-
         Scanner keyboard7 = new Scanner(System.in);
         System.out.println("Cachez le nombre : ");
         int nombre7 = keyboard7.nextInt();
@@ -182,6 +181,7 @@ public class Whiles {
 
         System.out.println("Le premier nombre est " + firstN + ", et le dernier nombre est " + lastN + ".");
 
+     */
 
     }
 }
