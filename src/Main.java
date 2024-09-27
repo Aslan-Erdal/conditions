@@ -57,17 +57,17 @@ public class Main {
 
         // Exercice Numéro 6 :
         // Ecrire un algorithme qui demande trois nombres à l’utilisateur et l’informe ensuite s’ils sont rangés ou non dans l’ordre croissant.
-        Scanner one = new Scanner(System.in);
+        Scanner clavier = new Scanner(System.in);
         System.out.println("Le premier nombre : ");
-        int numberOne = one.nextInt();
+        int numberOne = clavier.nextInt();
 
-        Scanner two = new Scanner(System.in);
+
         System.out.println("Le second nombre : ");
-        int numberTwo = one.nextInt();
+        int numberTwo = clavier.nextInt();
 
-        Scanner three = new Scanner(System.in);
+
         System.out.println("Le troisieme nombre : ");
-        int numberThree = one.nextInt();
+        int numberThree = clavier.nextInt();
 
         if (numberOne > numberTwo && numberOne > numberThree && numberTwo > numberThree) {
             System.out.print("Les nombres sont croissant");
